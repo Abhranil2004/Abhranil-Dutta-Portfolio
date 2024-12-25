@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="I'm Abhranil Dutta,and this is my personal portfolio website..">
+    <meta name="keywords" content="Abhranil, Abhranil Dutta, Abhranil ">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Abhranil Dutta Portfolio</title>
+
+    <!--==================== Favicon ====================-->
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+
+    <!--==================== Animate on scroll CDN ====================-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Abhranil</a>
+
+            <div data-aos="fade-in" class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__items">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#about" class="nav__link ">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#portfolio" class="nav__link ">
+                            <i class="uil uil-scenery nav__icon"></i> Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__items">
+                        <a href="#contact" class="nav__link ">
+                            <i class="uil uil-message nav__icon"></i> Contact me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!--Theme Change button-->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div data-aos="fade-left" class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.instagram.com/_abhi_is_back_2403?igsh=dTJtdHA5OHR4anVr"
+                            target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://github.com/Abhranil2004" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                        <a href="https://x.com/abhranil17?t=1yj4qJRLMhL0Lm7ytz_1ug&s=09" target="_blank" class="home__social-icon">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+
+                    <div data-aos="fade-right" class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home__blob-img" x="12" y="18" href="perfil.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home_title">Hi!<span class="wave">👋</span>, I'm Abhranil Dutta</h1>
+                        <h3 class="home__subtitle">
+                            and I'm <span class="auto-input"></span>
+                        </h3>
+                        <p class="home__description">
+                            Bachelor of Computer Applications Student. <br>
+A first-year undergraduate engineering student at Techno India Institute Of Technology , Kolkata.
+                        </p>
+                        <a href="#contact" class="button button--flex">
+                            Contact Me <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name"> Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle"> My Introduction</span>
+
+            <div data-aos="fade-left" class="about__container container grid">
+                <img src="about.jpg" alt="" class="about__img" />
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Hi! I'm Abhranil Dutta, a front-end web developer with a passion for building engaging web experiences. I've honed my skills in HTML, CSS, and JavaScript through multiple web projects – check them out below! As a tech enthusiast, I also enjoy exploring custom Android ROM development. <br>
+
+                        I'm a full-stack developer. I have learnt HTML, CSS, JS and Python. I am interested in
+                        working on projects with an open-source focus.
+                    </p>
+
+                    <div class="about_info">
+                        <div>
+                            <span class="about__info-title">02+</span>
+                            <span class="about__info-name">Years <br />
+                                experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">20+</span>
+                            <span class="about__info-name">Completed <br />
+                                project</span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="Abhranil Dutta-cv.pdf" class="button button--flex">
+                            Download CV <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Certificates ====================-->
+        <section class="certificate section">
+            <h2 class="section__title">My Certificates</h2>
+            <span class="section__subtitle">By Programming Hub</span>
+            <span class="section__subtitle">Scroll or slide here to see next>>></span>
+
+            <div data-aos="fade-up" class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== Certificate 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="certificate 1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>HTML And CSS Certificate</p>
+                            <a href="certificate.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="certificate 2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>JavaScript Certificate</p>
+                            <a href="certificate 2.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="certificate 3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>Ethical Hacking Essentials (EHE) Certificate</p>
+                            <a href="certificate 3.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="certificate 4.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>Python Program From UST Certificate</p>
+                            <a href="certificate 4.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== Certificate 5 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="certificate 5.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>Elements of AI Certificate</p>
+                            <a href="certificate 5.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                     <!--==================== Certificate 6 ====================-->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="certificate 6.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <p>Python 101 for Data Science Certificate</p>
+                            <a href="certificate 6.pdf"
+                                class="button button--flex button--small portfolio_-button">
+                                Preview
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+        </section>
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Most recent work</span>
+
+            <div data-aos="fade-right" class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="portfolio1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">JARVIS AI ASSISTANT</h3>
+                            <p class="portfolio__description">This clarifies it's a web-based assistant (HTML/CSS) and uses JavaScript for interaction and potentially voice recognition. It mentions basic functionality like info display and task execution.</p>
+                            <a href="https://github.com/Abhranil2004/JARVIS-AI-ASSISTANT" class="button button--flex button--small portfolio_-button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="portfolio2.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Pepsi Clone</h3>
+                            <p class="portfolio__description">This webpage will showcase your creativity using HTML for structure, CSS for styling, and JavaScript for interactivity. The design will feature a prominent blue background with a bold red stripe, reminiscent of a Pepsi can. You can add text, images, or even a fun animation to engage visitors.</p>
+                            <a href="https://github.com/Abhranil2004/pepsi-web-page" class="button button--flex button--small portfolio_-button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="portfolio3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Custom ROM for OnePlus Nord CE 3</h3>
+                            <p class="portfolio__description">A custom ROM is an alternative operating system for your OnePlus Nord CE 3, offering potential improvements over the stock software. It can bring new features, better performance, or customization options. However, installing a custom ROM can void your warranty and is risky if not done correctly, so proceed with caution.</p>
+                            <a href="https://github.com/Abhranil2004/android_device_oneplus_ziti_CUSTOM_ROM" class="button button--flex button--small portfolio_-button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+
+            <div data-aos="fade-in" class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon "></i>
+                        <!--home__social-->
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle"> abhranildutta1903@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-github-alt contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Github</h3>
+                            <span class="contact__subtitle">https://github.com/Abhranil2004 </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="https://api.web3forms.com/submit" method="POST" 
+                    class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input name="name" type="text" class="contact__input"  required class="input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input name="email" type="email" class="contact__input"  required class="input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea input type="message" name="message" id="" cols="0" rows="7" class="contact__input"  required class="input"></textarea>
+                        <input type="hidden" name="access_key" value="645a1932-98a1-4696-8098-6b42e3b1b63a">
+                    </div>
+
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
+
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Abhranil</h1>
+                    <span class="footer__subtitle">Frontend Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#portfolio" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/_abhi_is_back_2403?igsh=dTJtdHA5OHR4anVr"
+                        target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i></a>
+                    </a>
+
+                    <a href="https://github.com/Abhranil2004" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i></a>
+                    </a>
+
+                    <a href="https://x.com/abhranil17?t=1yj4qJRLMhL0Lm7ytz_1ug&s=09" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i></a>
+                    </a>
+                </div>
+            </div>
+            <p class="footer__copy">&copy; 2024 Abhranil Dutta| All Rights Reserved</p>
+        </div>
+    </footer>
+
+
+    <!--==================== SCROLL TOP ====================-->
+    <div><a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a></div>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="main.js"></script>
+
+    <!--=================== Animated text ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-input", {
+            strings: [
+                "a Web Developer",
+                "a student",
+                "a Custom Rom Developer",
+            ],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        });
+    </script>
+
+    <!--=================== Animate scroll js ===============-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            duration: 2000
+        });
+    </script>
+
+</body>
+
+</html>
